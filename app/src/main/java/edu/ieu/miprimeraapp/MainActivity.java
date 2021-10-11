@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String EXTRA_MESSAGE = "edu.ieu.miprimeraapp.EXTRA_MESSAGE";
+    public static final String EXTRA_MESSAGE = "edu.ieu.miprimeraapp.EXTRA_MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
